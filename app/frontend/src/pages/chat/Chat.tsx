@@ -269,7 +269,7 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <img src={eirgrid} alt="eirgrid logo" aria-label="Link to Eirgrid" width="50px" height="50px" className={styles.eirgridLogo} />
+                            <img src={eirgrid} alt="eirgrid logo" aria-label="Link to Eirgrid" width="120px" height="120px" />
                             <h1 className={styles.chatEmptyStateTitle}>Hi Eirgrid, Chat with your data</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
