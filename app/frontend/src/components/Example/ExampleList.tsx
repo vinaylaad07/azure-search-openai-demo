@@ -6,7 +6,7 @@ const DEFAULT_EXAMPLES: string[] = [
     "What is included in my Northwind Health Plus plan that is not in standard?",
     "What happens in a performance review for Eirgrid employees?",
     "What does a Product Manager do in Eirgrid?",
-    "What is the address for Vinay Laad?"
+    "What is the climate action plan for 2023?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
