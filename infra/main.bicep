@@ -75,12 +75,12 @@ param computerVisionResourceGroupLocation string = 'eastus' // Vision vectorize 
 param computerVisionSkuName string = 'S1'
 
 param chatGptDeploymentName string // Set in main.parameters.json
-param chatGptDeploymentCapacity int = 30
+param chatGptDeploymentCapacity int = 1
 param chatGpt4vDeploymentCapacity int = 10
 param chatGptModelName string = (openAiHost == 'azure') ? 'gpt-35-turbo' : 'gpt-3.5-turbo'
 param chatGptModelVersion string = '0613'
 param embeddingDeploymentName string // Set in main.parameters.json
-param embeddingDeploymentCapacity int = 30
+param embeddingDeploymentCapacity int = 1
 param embeddingModelName string = 'text-embedding-ada-002'
 param gpt4vModelName string = 'gpt-4'
 param gpt4vDeploymentName string = 'gpt-4v'
