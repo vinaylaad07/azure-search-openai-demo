@@ -270,7 +270,7 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             <img src={eirgrid} alt="eirgrid logo" aria-label="Link to Eirgrid" width="250px" height="144px" />
-                            <h1 className={styles.chatEmptyStateTitle}>Hi Eirgrid, Chat with your data</h1>
+                            <h1 className={styles.chatEmptyStateTitle}>Hello !, Chat with your data</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                         </div>
