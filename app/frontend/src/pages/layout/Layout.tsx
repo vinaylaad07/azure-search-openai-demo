@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
-import eirgrid from "../../assets/eirgrid.svg";
+import github from "../../assets/github.svg";
 
 import styles from "./Layout.module.css";
 
@@ -29,14 +29,14 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Eirgrid">
+                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github">
                                     <img
-                                        src={eirgrid}
-                                        alt="eirgrid logo"
-                                        aria-label="Link to Eirgrid"
-                                        width="50px"
-                                        height="50px"
-                                        className={styles.eirgridLogo}
+                                        src={github}
+                                        alt="Github logo"
+                                        aria-label="Link to github repository"
+                                        width="20px"
+                                        height="20px"
+                                        className={styles.githubLogo}
                                     />
                                 </a>
                             </li>
