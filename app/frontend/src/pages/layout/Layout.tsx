@@ -29,13 +29,13 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="eirgrid">
+                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Eirgrid">
                                     <img
                                         src={eirgrid}
                                         alt="eirgrid logo"
                                         aria-label="Link to Eirgrid"
-                                        width="20px"
-                                        height="20px"
+                                        width="50px"
+                                        height="50px"
                                         className={styles.eirgridLogo}
                                     />
                                 </a>
