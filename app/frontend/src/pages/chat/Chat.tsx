@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { Checkbox, Panel, DefaultButton, TextField, SpinButton } from "@fluentui/react";
-import { SparkleFilled } from "@fluentui/react-icons";
+import SparkleFilled from "../../assets/eirgrid.svg";
 import readNDJSONStream from "ndjson-readablestream";
 
 import styles from "./Chat.module.css";
